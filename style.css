@@ -12,10 +12,13 @@ li{
     list-style: none;
 }
 .banner{
+    width: 100%;
+    height: 600px;
     position: relative;
     display: flex;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.9)),
+    url('files/netflix-bg.jpg');
     border-bottom: 8px solid #222;
-    /* box-shadow: inset -1px 0px 0px blue; */
 }
 .nav-bar{
     width: 100%;
@@ -25,7 +28,6 @@ li{
 }
 .bg-img{
     width: 100%;
-    /* opacity: 0.9; */
 }
 .logo-img{
     width: 130px;
@@ -114,9 +116,6 @@ li{
     color: #fff;
     width: 50%;
     margin: 50px 0px 50px 100px;
-    /* margin-left: 100px;
-    margin-top: 50px;
-    margin-bottom: 50px; */
     display: flex;
     align-content: center;
     flex-direction: column;
@@ -125,9 +124,6 @@ li{
     color: #fff;
     width: 50%;
     margin: 50px 100px 50px 50px;
-    /* margin-right: 100px;
-    margin-top: 50px;
-    margin-bottom: 50px; */
     display: flex;
     align-content: center;
     flex-direction: column;
@@ -217,7 +213,6 @@ li{
 .faq{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
     align-items: center;
     margin: 0px 250px 0px 250px;
 }
@@ -256,7 +251,6 @@ li{
 }
 .footer-top{
     padding: 75px 200px 50px 200px;
-    /* width: 600px; */
 }
 .footer-text{
     font-size: 1em;
